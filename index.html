@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do baú tesouro</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Em Busca da Cidade Perdida</header>
+            <img src="img/dora.png" alt="Inicio da Jornada">
+            <p>Dora e seu amigo Botas saem para mais uma aventura, seu ojetivo é encontrar um baú de tesouro.</p>
+            <button class="btn-proximo" data-proximo="1">Ir atrás do baú de tesouro
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/dora.png" alt="Chegamos em Barra Bonita">
+            <p>Na procura eles se depararam com dois caminhos</p>
+            <button class="btn-proximo" data-proximo="2">Pra floresta</button>
+            <button class="btn-proximo" data-proximo="3">Pra cidade</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <img src="img/city.png" alt="Chegando no Cristo do Linhão">
+            <p>Na cidade eles enfrentam chuva e muito trânsito, quando decidem perguntar para um morador da regiáo qual caminho seria mais acessível, ele então responde que é melhor pegar o metro.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para o museu</button>
+                <button class="btn-proximo" data-proximo="4">Desistir</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img" alt="O retorno para a escola">
+            <p>Dora juntamente com Botas se perdem e decidem voltar</p>
+            <button class="btn-proximo" data-proximo="1">voltar </button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/escola.png" alt="O retorno para a escola">
+            <p>Dora decide que a aventura é grande demais e volta para casa, retomar seus deveres, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+      
+
+        <div class="passo" id="passo-7">
+            <img src="img/museu.avif"  >
+            <img src="img/mapa.png"  >
+            
+            <p>Dora chegou no museu e encontrou um mapa antigo desse tesouro</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o caminho do mapa</button>
+            
+        </div>
+
+
+        <div class="passo" id="passo-9">
+            <img src="img/bau.png" alt="Entrada do paraiso">
+            <p>Dora e botas conseguem encontrar o tesouro no qual está cheio de ouro e chocolate</p>
+            <button class="btn-proximo" data-proximo="11">Fim</button>
+        </div>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
